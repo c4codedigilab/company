@@ -113,10 +113,6 @@ document.write(`
 </div>
 </footer>
 
-<a class="whats-app" href="https://api.whatsapp.com/send?phone=+917361040504&text=Hello%20CodeDigiLab"
-target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
 
 
 `);

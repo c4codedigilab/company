@@ -75,7 +75,7 @@ document.write(`
                         <a href="about-us.html">Services</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="about-us.html">Projects</a>
+                        <a href="projects.html">Projects</a>
                      </li>
                      <li class="navbar__item nav-fade">
                         <a href="about-us.html">Technology Expertise</a>

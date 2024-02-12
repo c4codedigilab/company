@@ -8940,3 +8940,22 @@ span {
 /* ==== 
  --------- (6.0) responsive styles end ---------
  ==== */
+
+ 
+/* Add WA floating button CSS */
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 26px;
+  color: #65FF4B;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 60px;
+  z-index: 100;
+ }
+ 
+ .fab-icon {
+  margin-bottom: 80vh;
+ }

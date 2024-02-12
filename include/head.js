@@ -16,8 +16,10 @@ document.write(`
    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
    <link rel="stylesheet" href="assets/vendor/odometer/css/odometer.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
    <script>
       function myFunction() {
          var dots = document.getElementById("dots");
@@ -93,21 +95,7 @@ document.write(`
          display: none;
       }
 
-      .whats-app {
-         position: fixed;
-         width: 60px;
-         height: 60px;
-         bottom: 40px;
-         text-align: center;
-         font-size: 70px;
-         z-index: 100;
-         right: 20px;
-         color:#075E54;
-      }
-
-      .my-float {
-         margin-bottom: 80vh;
-      }
+     
    </style>
-
+  
 `);
