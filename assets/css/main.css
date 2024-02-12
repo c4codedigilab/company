@@ -90,7 +90,7 @@
   --primary-color: #4bb7ff;
   --secondary-color: #4bb7ff;
   --tertiary-color: #120f23;
-  --quaternary-color: #191b1a;
+  --quaternary-color: #ffffff;
   --quinary-color: #b1b0b6;
   --transition: all 0.3s ease-in-out;
   --shadow: 0 0 12px rgba(0, 0, 0, 0.1);
@@ -6887,7 +6887,7 @@ span {
 .m-contact .input-single textarea {
   background-color: inherit;
   padding: 20px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgb(255, 255, 255);
   width: 100%;
   border-radius: 5px;
   max-height: 180px;
