@@ -83,12 +83,12 @@
   --mont: "Montserrat", sans-serif;
   --poppins: "Poppins", sans-serif;
   --theme-font: var(--inter);
-  --theme-bg: #030015;
+  --theme-bg: #0a0235;
   --theme-color: #ffffff90;
   --white: #ffffff;
-  --black: #000000;
-  --primary-color: #65ff4b;
-  --secondary-color: #40cc28;
+  --black: #C9B2A0;
+  --primary-color: #4bb7ff;
+  --secondary-color: #4bb7ff;
   --tertiary-color: #120f23;
   --quaternary-color: #191b1a;
   --quinary-color: #b1b0b6;
@@ -1198,7 +1198,7 @@ span {
   width: 100%;
   max-width: 520px;
   background-color: var(--primary-color);
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   z-index: 99999;
   transform: translateX(100%);
   box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1);
@@ -1357,7 +1357,7 @@ span {
   left: 0;
   width: 0%;
   height: 100%;
-  background: #40cc28;
+  background: #0a0235;
   opacity: 0.3;
   position: absolute;
 }
@@ -1591,7 +1591,7 @@ span {
 .btn--primary {
   z-index: 1;
   color: var(--quaternary-color);
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   border: 0px;
 }
 .btn--primary::before {
@@ -1630,7 +1630,7 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
@@ -1693,7 +1693,7 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
@@ -3427,7 +3427,7 @@ span {
   background-color: #292c32;
 }
 .footer-cmn .subscribe-form button {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   color: #1c1b1f;
 }
 .footer-cmn .footer__copyright {
@@ -3489,7 +3489,7 @@ span {
   left: 50%;
   width: 110%;
   height: 100%;
-  background-color: #40cc28;
+  background-color: #0a0235;
   z-index: -1;
   transform: rotate(0deg) translateX(-50%);
 }
@@ -4106,8 +4106,8 @@ span {
 }
 .pricing .pricing__single-active {
   margin-top: 0px;
-  border-right: 1px solid #40cc28;
-  border-top: 1px solid #40cc28;
+  border-right: 1px solid #0a0235;
+  border-top: 1px solid #0a0235;
 }
 .pricing .pricing__single-active .pricing__intro .primary-text {
   color: #ffd584;
@@ -4227,7 +4227,7 @@ span {
   font-weight: 700;
 }
 .counter .counter__single .prefix {
-  color: #65ff4b;
+  color:  #49e7db;
 }
 .counter .counter__single p {
   font-weight: 600;
@@ -4508,7 +4508,7 @@ span {
 }
 
 .empower .content-wrapper {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   clip-path: polygon(8.684% 36.644%, 8.684% 36.644%, 8.784% 36.074%, 8.902% 35.543%, 9.037% 35.054%, 9.186% 34.61%, 9.349% 34.213%, 9.524% 33.867%, 9.71% 33.573%, 9.906% 33.336%, 10.111% 33.158%, 10.323% 33.041%, 93.236% 0.326%, 93.236% 0.326%, 93.575% 0.273%, 93.904% 0.38%, 94.218% 0.633%, 94.512% 1.024%, 94.782% 1.541%, 95.023% 2.174%, 95.229% 2.912%, 95.398% 3.744%, 95.523% 4.659%, 95.599% 5.648%, 99.962% 92.755%, 99.962% 92.755%, 99.985% 93.885%, 99.942% 94.973%, 99.839% 96.002%, 99.681% 96.953%, 99.474% 97.808%, 99.222% 98.548%, 98.931% 99.156%, 98.605% 99.613%, 98.252% 99.9%, 97.875% 100%, 2.168% 100%, 2.168% 100%, 1.722% 99.862%, 1.315% 99.469%, 0.952% 98.854%, 0.641% 98.049%, 0.389% 97.086%, 0.203% 95.998%, 0.089% 94.816%, 0.055% 93.574%, 0.108% 92.303%, 0.253% 91.035%, 8.684% 36.644%);
   padding: 80px 140px;
 }
@@ -5620,7 +5620,7 @@ span {
   font-weight: 700;
 }
 .s-journey .counter__single .prefix {
-  color: #65ff4b;
+  color:  #49e7db;
 }
 .s-journey .counter__single p {
   font-weight: 500;
@@ -5906,7 +5906,7 @@ span {
   background-color: #292c32;
 }
 .s-news .subscribe-form button {
-  background-image: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   color: #1c1b1f;
 }
 
@@ -7077,7 +7077,7 @@ span {
 }
 .case-details .case-d-content-left .social a:hover {
   background-color: rgba(101, 255, 75, 0.1254901961);
-  color: #65ff4b;
+  color:  #49e7db;
 }
 .case-details .case-d-content-right .text-group {
   margin-bottom: 60px;
