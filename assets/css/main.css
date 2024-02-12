@@ -1,11 +1,6 @@
 /* ==============
  ========= css documentation =========
 
- * theme name: Aikeu
- * version: 1.0
- * description: Artificial Neural Network AI HTML Template
- * author: Pixelaxis
- * author-url: https://themeforest.net/user/pixelaxis
 
  01. abstracts
      1.01 --> mixins
@@ -2012,6 +2007,7 @@ span {
  --------- (4.01) header styles start ---------
  ==== */
 .primary-navbar {
+  background: linear-gradient(to right, rgba(101, 255, 75, 0.9), rgba(6, 143, 198, 0.9));
   position: fixed;
   top: 0px;
   left: 0px;
