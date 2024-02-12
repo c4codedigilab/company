@@ -1602,7 +1602,7 @@ span {
   bottom: 0px;
   width: 0px;
   height: 100%;
-  background-image: linear-gradient(-140deg, #65ff4b 0%, #46e695 100%);
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   transition: all 0.6s ease;
   z-index: -1;
 }
@@ -2013,7 +2013,7 @@ span {
  --------- (4.01) header styles start ---------
  ==== */
 .primary-navbar {
-  background: linear-gradient(to right, rgba(101, 255, 75, 0.9), rgba(6, 143, 198, 0.9));
+  background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -2550,7 +2550,7 @@ span {
   margin-bottom: 30px;
 }
 .banner-two .banner-two__content h1 span {
-  background: linear-gradient(107deg, #65ff4b 0%, #46e695 100%);
+ background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2629,7 +2629,7 @@ span {
   top: -10px;
   right: -10px;
   border-radius: 100px;
-  border: 1px solid #65ff4b;
+  border: 1px solid #49e7db;
   z-index: -2;
 }
 .banner-three .banner-t-s-thumb img {
@@ -3213,7 +3213,7 @@ span {
 .footer-alter .footer-alter__inner {
   padding: 80px;
   border-radius: 10px;
-  background-image: url("../images/footer/footer-bg-two.png"), linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background-image: url("../images/footer/footer-bg-two.png"), linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -3361,7 +3361,7 @@ span {
 .footer-cmn .footer-cmn__cta {
   padding: 80px 20px;
   border-radius: 20px;
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
 }
 .footer-cmn .footer-cmn__cta .title {
   color: var(--quaternary-color);
@@ -5330,7 +5330,7 @@ span {
 .h-unlock .h-unlock__thumb .h-u-t-content {
   padding: 30px;
   border-radius: 10px 120px 10px 10px;
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   max-width: 310px;
   position: absolute;
   bottom: 0px;
@@ -5482,7 +5482,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 6px solid #65ff4b;
+  border: 6px solid #49e7db;
 }
 .publisher .publisher__single .thumb img {
   width: 100%;
@@ -6617,7 +6617,7 @@ span {
   background-color: #120f23;
 }
 .p-details .p-details__tab .p-details__tab-btn .p-d-t-btn-active {
-  background: linear-gradient(132deg, #65ff4b 0%, #46e695 100%);
+  background: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
   color: #191b1a;
 }
 .p-details .p-details__tab .p-details__tab-single {
