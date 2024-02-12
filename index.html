@@ -19,64 +19,107 @@
    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css">
    <link rel="stylesheet" href="assets/vendor/odometer/css/odometer.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    <script>
       function myFunction() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var dots1 = document.getElementById("dots1");
-        var moreText1 = document.getElementById("more1");
-        var btnText = document.getElementById("myBtn");
-        var btnText1 = document.getElementById("myBtn1");
+         var dots = document.getElementById("dots");
+         var moreText = document.getElementById("more");
+         var dots1 = document.getElementById("dots1");
+         var moreText1 = document.getElementById("more1");
+         var btnText = document.getElementById("myBtn");
+         var btnText1 = document.getElementById("myBtn1");
 
-        var dots2 = document.getElementById("dots2");
-        var moreText2 = document.getElementById("more2");
-        var btnText2 = document.getElementById("myBtn2");
+         var dots2 = document.getElementById("dots2");
+         var moreText2 = document.getElementById("more2");
+         var btnText2 = document.getElementById("myBtn2");
 
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more"; 
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read less"; 
-          moreText.style.display = "inline";
-        }
+         var dots3 = document.getElementById("dots3");
+         var moreText3 = document.getElementById("more3");
+         var btnText3 = document.getElementById("myBtn3");
 
-        if (dots1.style.display === "none") {
-          dots1.style.display = "inline";
-          btnText1.innerHTML = "Read more"; 
-          moreText1.style.display = "none";
-        } else {
-          dots1.style.display = "none";
-          btnText1.innerHTML = "Read less"; 
-          moreText1.style.display = "inline";
-        }
-        if (dots2.style.display === "none") {
-          dots2.style.display = "inline";
-          btnText2.innerHTML = "Read more"; 
-          moreText2.style.display = "none";
-        } else {
-          dots2.style.display = "none";
-          btnText2.innerHTML = "Read less"; 
-          moreText2.style.display = "inline";
-        }
-        
-       
+
+         if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+         } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+         }
+
+         if (dots1.style.display === "none") {
+            dots1.style.display = "inline";
+            btnText1.innerHTML = "Read more";
+            moreText1.style.display = "none";
+         } else {
+            dots1.style.display = "none";
+            btnText1.innerHTML = "Read less";
+            moreText1.style.display = "inline";
+         }
+         if (dots2.style.display === "none") {
+            dots2.style.display = "inline";
+            btnText2.innerHTML = "Read more";
+            moreText2.style.display = "none";
+         } else {
+            dots2.style.display = "none";
+            btnText2.innerHTML = "Read less";
+            moreText2.style.display = "inline";
+         }
+
+         if (dots3.style.display === "none") {
+            dots3.style.display = "inline";
+            btnText3.innerHTML = "Read more";
+            moreText3.style.display = "none";
+         } else {
+            dots3.style.display = "none";
+            btnText3.innerHTML = "Read less";
+            moreText3.style.display = "inline";
+         }
       }
-      </script>
-      <style>
-         #more {display: none;}
-         #more1 {display: none;}
-         #more2 {display: none;}
+   </script>
+   <style>
+      #more {
+         display: none;
+      }
 
+      #more1 {
+         display: none;
+      }
 
-         </style>
+      #more2 {
+         display: none;
+      }
+
+      #more3 {
+         display: none;
+      }
+
+      .whats-app {
+         position: fixed;
+         width: 60px;
+         height: 60px;
+         bottom: 40px;
+         text-align: center;
+         font-size: 70px;
+         z-index: 100;
+         right: 20px;
+         color:#075E54;
+      }
+
+      .my-float {
+         margin-bottom: 50vh;
+      }
+   </style>
 </head>
 
 <body>
    <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
+
+  
    <div class="my-app">
       <div id="preloader">
          <div id="ctn-preloader" class="ctn-preloader">
@@ -434,32 +477,29 @@
 
                <section class="section m-contact fade-wrapper">
                   <div class="container">
-                     
+
                      <div class="row gaper align-items-center">
                         <div class="col-12 col-lg-6 col-xl-6">
                            <div class="m-contact__form">
                               <h3 class="title-animation fw-7 text-white text-uppercase mt-12">PLEASE MESSAGE ME, IF YOU
                                  HAVE ANY QUERIES</h3>
                               <form action="#" method="post">
-                                 
+
 
                                  <div class="row">
                                     <div class="col">
                                        <div class="input-single">
-                                          <input type="text" name="name"  placeholder="Full Name"
-                                             required="">
+                                          <input type="text" name="name" placeholder="Full Name" required="">
                                        </div>
                                     </div>
                                     <div class="col">
                                        <div class="input-single">
-                                          <input type="number" name="name"  placeholder="Phone Number"
-                                             required="">
+                                          <input type="number" name="name" placeholder="Phone Number" required="">
                                        </div>
                                     </div>
-                                  </div>
+                                 </div>
                                  <div class="input-single mt-4">
-                                    <input type="email" name="name"  placeholder="E-mail"
-                                       required="">
+                                    <input type="email" name="name" placeholder="E-mail" required="">
                                  </div>
                                  <div class="input-single">
                                     <textarea name="c-message" id="cMessage" cols="30" rows="10"
@@ -494,13 +534,15 @@
                                  Code Digi Lab
                               </span>
                               <h2 class="title title-animation">Website Design & Digital Marketing Company</h2>
-                              <p class="title-animation">If you are looking for best website development company in Darbhanga, Bihar? Than Code
+                              <p class="title-animation">If you are looking for best website development company in
+                                 Darbhanga, Bihar? Than Code
                                  Digi Lab Services is good option for your business. You can call any time on Mobile No
                                  -
                                  <a href="https://api.whatsapp.com/send?phone=+917361040504&text=Hello%20CodeDigiLab"><span
                                        style="color: blue;">+91-7361040504</span></a> .
                               </p>
-                              <p class="title-animation">It is an iniative to provide IT services to small scale business at affordable rate.
+                              <p class="title-animation">It is an iniative to provide IT services to small scale
+                                 business at affordable rate.
                               </p>
                               <div class="section__content-cta">
                                  <a href="https://api.whatsapp.com/send?phone=+917361040504&text=Hello%20CodeDigiLab">
@@ -821,11 +863,19 @@
                         <div class="col-12">
                            <div class="review__slider">
                               <div class="review__slider-single">
-                                 <p>I started as a fresher in ThinkSys 2 years back and till now I am at learning mode. Every time there is<span id="dots">...</span><span id="more"> something new to learn which I really like about this company that there are so many things to learn. These k earnings are really helpful in growth which I have seen also that my seniors have grown from the scratch and they are now leading a team. With this live stories and experiences I can see a great future and growth for me too.</span></p>
+                                 <p>I started as a fresher in Code Digi Lab 2 years back and till now I am at learning
+                                    mode. Every time there is<span id="dots">...</span><span id="more"> something new to
+                                       learn which I really like about this company that there are so many things to
+                                       learn. These k earnings are really helpful in growth which I have seen also that
+                                       my seniors have grown from the scratch and they are now leading a team. With this
+                                       live stories and experiences I can see a great future and growth for me
+                                       too.</span></p>
                                  <button style="color: blue;" onclick="myFunction()" id="myBtn">Read more</button>
                                  <div class="review__meta">
                                     <div class="thumb">
-                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
+                                       <img
+                                          src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100"
+                                          alt="Image">
                                     </div>
                                     <div class="content">
                                        <h5>Aashu Rajput</h5>
@@ -833,35 +883,56 @@
                                  </div>
                               </div>
                               <div class="review__slider-single">
-                                 <p>I joined ThinkSys during the early days of my career and I am glad to I joined ThinkSys during the
-                                    <span id="dots1">...</span><span id="more1"> early days of my career and I am glad to join here. This is by far the best Technology Driven company. I can say that they are not only developing their employee rather they make Future leaders. I would say don’t hesitate in joining, as there are ample amount opportunities and a lot to learn. here. This is by far the best Technology Driven company. I can say that they are not only developing their employee rather they make Future leaders. I would say don’t hesitate in joining, as there are ample amount opportunities and a lot to learn.</span></p>
+                                 <p>I joined Code Digi Lab during the early days of my career and I am glad to I joined
+                                    Code Digi Lab during the
+                                    <span id="dots1">...</span><span id="more1"> early days of my career and I am glad
+                                       to join here. This is by far the best Technology Driven company. I can say that
+                                       they are not only developing their employee rather they make Future leaders. I
+                                       would say don’t hesitate in joining, as there are ample amount opportunities and
+                                       a lot to learn. here. This is by far the best Technology Driven company. I can
+                                       say that they are not only developing their employee rather they make Future
+                                       leaders. I would say don’t hesitate in joining, as there are ample amount
+                                       opportunities and a lot to learn.</span>
+                                 </p>
                                  <button style="color: blue;" onclick="myFunction()" id="myBtn1">Read more</button>
                                  <div class="review__meta">
                                     <div class="thumb">
-                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
+                                       <img
+                                          src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100"
+                                          alt="Image">
                                     </div>
                                     <div class="content">
                                        <h5>Parvinder Panwar</h5>
-                                      
+
                                     </div>
                                  </div>
                               </div>
                               <div class="review__slider-single">
-                                 <p>When you have to work for long term, you look for benefits that the company can offer. At ThinkSys,
-                                    <span id="dots2">...</span><span id="more2"> I have benefits of the unusual kind. I joined here as a senior software engineer. I considered myself to have much knowledge and would always believe that there might not be much to learn further when I join a new company. Here, however, there is an endless pool of learning. The projects are so many that I can constantly learn and grow. Other than that, the employees are great at bonding and they keep the work culture maintained.</span></p>
+                                 <p>When you have to work for long term, you look for benefits that the company can
+                                    offer. At Code Digi Lab,
+                                    <span id="dots2">...</span><span id="more2"> I have benefits of the unusual kind. I
+                                       joined here as a senior software engineer. I considered myself to have much
+                                       knowledge and would always believe that there might not be much to learn further
+                                       when I join a new company. Here, however, there is an endless pool of learning.
+                                       The projects are so many that I can constantly learn and grow. Other than that,
+                                       the employees are great at bonding and they keep the work culture
+                                       maintained.</span>
+                                 </p>
                                  <button style="color: blue;" onclick="myFunction()" id="myBtn2">Read more</button>
                                  <div class="review__meta">
                                     <div class="thumb">
-                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
+                                       <img
+                                          src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100"
+                                          alt="Image">
                                     </div>
                                     <div class="content">
                                        <h5>Vertika Rawat</h5>
                                     </div>
                                  </div>
                               </div>
-                              
-                              
-                              
+
+
+
                            </div>
                         </div>
                      </div>
@@ -1002,6 +1073,9 @@
       </button>
       <!-- ==== / scroll to top end ==== -->
    </div>
+   <a class="whats-app" href="https://api.whatsapp.com/send?phone=+917361040504&text=Hello%20CodeDigiLab" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+   </a>
    <!-- ==== js dependencies start ==== -->
    <!-- jquery -->
    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
