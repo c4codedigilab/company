@@ -59,32 +59,32 @@ document.write(`
          <div class="col-12">
             <nav class="navbar p-0">
                <div class="navbar__logo">
-                  <a href="index.html" aria-label="home page" title="logo">
+                  <a href="index" aria-label="home page" title="logo">
                      <img src="assets/images/logo.png" alt="Image">
                   </a>
                </div>
                <div class="navbar__menu">
                   <ul class="navbar__list">
                      <li class="navbar__item nav-fade">
-                        <a href="index.html">Home</a>
+                        <a href="index">Home</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="about-us.html">About Us</a>
+                        <a href="about-us">About Us</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="about-us.html">Services</a>
+                        <a href="about-us">Services</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="projects.html">Projects</a>
+                        <a href="projects">Projects</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="about-us.html">Technology Expertise</a>
+                        <a href="about-us">Technology Expertise</a>
                      </li>
 
 
 
                      <li class="navbar__item nav-fade">
-                        <a href="contact-us.html">Contact Us</a>
+                        <a href="contact-us">Contact Us</a>
                      </li>
                   </ul>
                </div>
@@ -111,7 +111,7 @@ document.write(`
       <nav class="mobile-menu__wrapper">
          <div class="mobile-menu__header nav-fade">
             <div class="logo">
-               <a href="index.html" aria-label="home page" title="logo">
+               <a href="index" aria-label="home page" title="logo">
                   <img src="assets/images/logo.png" alt="Image">
                </a>
             </div>
@@ -156,7 +156,7 @@ document.write(`
 <div class="offcanvas-info__inner">
    <div class="offcanvas-info__intro">
       <div class="offcanvas-info__logo">
-         <a href="index.html">
+         <a href="index">
             <img src="assets/images/logo.png" alt="Image">
          </a>
       </div>
