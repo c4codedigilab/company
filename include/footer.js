@@ -33,7 +33,7 @@ document.write(`
             <div class="row gaper">
                <div class="col-12 col-lg-4">
                   <div class="footer__nav-logo text-center text-lg-start">
-                     <a href="index.html" aria-label="home page" title="logo">
+                     <a href="index" aria-label="home page" title="logo">
                         <img src="assets/images/logo.png" alt="Image">
                      </a>
                   </div>
@@ -42,19 +42,19 @@ document.write(`
                   <div class="footer__nav-list">
                      <ul class="justify-content-center justify-content-lg-end">
                         <li>
-                           <a href="index.html">Home</a>
+                           <a href="index">Home</a>
                         </li>
                         <li>
-                           <a href="about-us.html">About Us</a>
+                           <a href="about-us">About Us</a>
                         </li>
                         <li>
-                           <a href="shop.html">Shop</a>
+                           <a href="shop">Shop</a>
                         </li>
                         <li>
-                           <a href="blog.html">Blog</a>
+                           <a href="blog">Blog</a>
                         </li>
                         <li>
-                           <a href="contact-us.html">Contact Us</a>
+                           <a href="contact-us">Contact Us</a>
                         </li>
                      </ul>
                   </div>
@@ -72,7 +72,7 @@ document.write(`
                      <p>
                         Copyright &copy;
                         <span id="copyrightYear"></span>
-                        <a href="index.html">CODE DIGI LAB</a>
+                        <a href="index">CODE DIGI LAB</a>
                         . All Rights Reserved
                      </p>
                   </div>
