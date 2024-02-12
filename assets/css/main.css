@@ -320,7 +320,7 @@ h1 {
 }
 
 .light-title {
-  font-size: 72px;
+  font-size: 60px;
   line-height: 82px;
 }
 
@@ -592,6 +592,12 @@ span {
   row-gap: 24px;
 }
 
+.section2 {
+  padding: 40px 0px;
+  overflow-x: clip;
+  position: relative;
+  z-index: 1;
+} 
 .section {
   padding: 160px 0px;
   overflow-x: clip;
@@ -3080,7 +3086,7 @@ span {
   display: inline-block;
 }
 .footer .footer__content-cta {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .footer .footer__nav {
   padding-top: 120px;
