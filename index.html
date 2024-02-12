@@ -32,6 +32,10 @@
         var moreText2 = document.getElementById("more2");
         var btnText2 = document.getElementById("myBtn2");
 
+        var dots3 = document.getElementById("dots3");
+        var moreText3 = document.getElementById("more3");
+        var btnText3 = document.getElementById("myBtn3");
+
       
         if (dots.style.display === "none") {
           dots.style.display = "inline";
@@ -61,12 +65,24 @@
           btnText2.innerHTML = "Read less"; 
           moreText2.style.display = "inline";
         }
+        
+        if (dots3.style.display === "none") {
+          dots3.style.display = "inline";
+          btnText3.innerHTML = "Read more"; 
+          moreText3.style.display = "none";
+        } else {
+          dots3.style.display = "none";
+          btnText3.innerHTML = "Read less"; 
+          moreText3.style.display = "inline";
+        }
       }
       </script>
       <style>
          #more {display: none;}
          #more1 {display: none;}
          #more2 {display: none;}
+         #more3 {display: none;}
+
 
          </style>
 </head>
@@ -819,70 +835,47 @@
                         <div class="col-12">
                            <div class="review__slider">
                               <div class="review__slider-single">
-                                 <p>I started as a fresher in ThinkSys 2 years back and till now I am at learning mode. Every time there is<span id="dots1">...</span><span id="more1"> something new to learn which I really like about this company that there are so many things to learn. These k earnings are really helpful in growth which I have seen also that my seniors have grown from the scratch and they are now leading a team. With this live stories and experiences I can see a great future and growth for me too.</span></p>
+                                 <p>I started as a fresher in ThinkSys 2 years back and till now I am at learning mode. Every time there is<span id="dots">...</span><span id="more"> something new to learn which I really like about this company that there are so many things to learn. These k earnings are really helpful in growth which I have seen also that my seniors have grown from the scratch and they are now leading a team. With this live stories and experiences I can see a great future and growth for me too.</span></p>
+                                 <button style="color: blue;" onclick="myFunction()" id="myBtn">Read more</button>
+                                 <div class="review__meta">
+                                    <div class="thumb">
+                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
+                                    </div>
+                                    <div class="content">
+                                       <h5>Aashu Rajput</h5>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="review__slider-single">
+                                 <p>I joined ThinkSys during the early days of my career and I am glad to I joined ThinkSys during the
+                                    <span id="dots1">...</span><span id="more1"> early days of my career and I am glad to join here. This is by far the best Technology Driven company. I can say that they are not only developing their employee rather they make Future leaders. I would say don’t hesitate in joining, as there are ample amount opportunities and a lot to learn. here. This is by far the best Technology Driven company. I can say that they are not only developing their employee rather they make Future leaders. I would say don’t hesitate in joining, as there are ample amount opportunities and a lot to learn.</span></p>
                                  <button style="color: blue;" onclick="myFunction()" id="myBtn1">Read more</button>
                                  <div class="review__meta">
                                     <div class="thumb">
-                                       <img src="assets/images/t-two.png" alt="Image">
+                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
                                     </div>
                                     <div class="content">
-                                       <h5>Kathryn Murphy</h5>
+                                       <h5>Parvinder Panwar</h5>
                                       
                                     </div>
                                  </div>
                               </div>
                               <div class="review__slider-single">
-                                 <p>I started as a fresher in ThinkSys 2 years back and till now I am at learning mode. Every time there is<span id="dots2">...</span><span id="more2"> something new to learn which I really like about this company that there are so many things to learn. These k earnings are really helpful in growth which I have seen also that my seniors have grown from the scratch and they are now leading a team. With this live stories and experiences I can see a great future and growth for me too.</span></p>
+                                 <p>When you have to work for long term, you look for benefits that the company can offer. At ThinkSys,
+                                    <span id="dots2">...</span><span id="more2"> I have benefits of the unusual kind. I joined here as a senior software engineer. I considered myself to have much knowledge and would always believe that there might not be much to learn further when I join a new company. Here, however, there is an endless pool of learning. The projects are so many that I can constantly learn and grow. Other than that, the employees are great at bonding and they keep the work culture maintained.</span></p>
                                  <button style="color: blue;" onclick="myFunction()" id="myBtn2">Read more</button>
                                  <div class="review__meta">
                                     <div class="thumb">
-                                       <img src="assets/images/t-three.png" alt="Image">
+                                       <img src="https://lh3.googleusercontent.com/a/ACg8ocKeIqqJiEs8FLIlO_UZ7GQrz2KSWN0SK6LnDvNJ9Tpl=s64-c-rp-mo-br100" alt="Image">
                                     </div>
                                     <div class="content">
-                                       <h5>Ralph Edwards</h5>
-                                       <p class="tertiary-text">Marketing Coordinator</p>
+                                       <h5>Vertika Rawat</h5>
                                     </div>
                                  </div>
                               </div>
-                              <div class="review__slider-single">
-                                 <p>I recently had the pleasure of experiencing the transformative power of chatbots,
-                                    and I must say, I am thoroughly impressed.</p>
-                                 <div class="review__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/t-one.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5>Devon Lane</h5>
-                                       <p class="tertiary-text">Nursing Assistant</p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="review__slider-single">
-                                 <p>I recently had the pleasure of experiencing the transformative power of chatbots,
-                                    and I must say, I am thoroughly impressed.</p>
-                                 <div class="review__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/t-two.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5>Kathryn Murphy</h5>
-                                       <p class="tertiary-text">Web Designer</p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="review__slider-single">
-                                 <p>I recently had the pleasure of experiencing the transformative power of chatbots,
-                                    and I must say, I am thoroughly impressed.</p>
-                                 <div class="review__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/t-three.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5>Ralph Edwards</h5>
-                                       <p class="tertiary-text">Marketing Coordinator</p>
-                                    </div>
-                                 </div>
-                              </div>
+                              
+                              
+                              
                            </div>
                         </div>
                      </div>
