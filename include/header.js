@@ -71,9 +71,29 @@ document.write(`
                      <li class="navbar__item nav-fade">
                         <a href="about-us">About Us</a>
                      </li>
-                     <li class="navbar__item nav-fade">
-                        <a href="about-us">Services</a>
-                     </li>
+                     
+                     <li class="navbar__item navbar__item--has-children nav-fade">
+                                    <button aria-label="dropdown menu" class="navbar__dropdown-label">Services</button>
+                                    <ul class="navbar__sub-menu">
+                                       <li>
+                                          <a href="web">Web Development</a>
+                                       </li>
+                                       <li>
+                                          <a href="web">App Development</a>
+                                       </li>
+                                       <li>
+                                          <a href="web">SEO Services</a>
+                                       </li>
+                                       <li>
+                                          <a href="web">Designing Services</a>
+                                       </li>
+                                       <li>
+                                          <a href="web">Digital Marketing</a>
+                                       </li>
+                                       
+                                       
+                                    </ul>
+                                 </li>
                      <li class="navbar__item nav-fade">
                         <a href="projects">Projects</a>
                      </li>
