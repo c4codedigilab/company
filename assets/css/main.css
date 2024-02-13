@@ -4221,6 +4221,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
   gap: 6px;
 }
 .counter .counter__single span {
@@ -4232,6 +4233,7 @@ span {
 .counter .counter__single p {
   font-weight: 600;
   margin-top: 20px;
+  color: white;
   text-align: center;
 }
 
