@@ -2550,7 +2550,7 @@ span {
   margin-bottom: 30px;
 }
 .banner-two .banner-two__content h1 span {
- background-image: linear-gradient(140deg, #49e7db 0%, #3174c6 100%);
+ background-image: linear-gradient(140deg, #FBFA70 0%, #FBFA70 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
