@@ -6,7 +6,7 @@ document.write(`
    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
    <title>Code Digi Lab</title>
    <meta name="keywords" content="software engineers, software developer, software company, business software, programming software, software development company, application development">
-   <meta name="description" content="Code Digi Lab Software Company">
+   <meta name="description" content="Our skilled Website and Mobile App Development services maximize your internet exposure. We create innovative solutions for your needs for an easy and engaging user interface. Our unique web development tactics boost your brands internet presence.">
    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css">
    <link rel="stylesheet" href="assets/vendor/material-icons/css/materialicons.css">
