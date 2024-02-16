@@ -79,16 +79,10 @@ document.write(`
                                           <a href="web">Web Development</a>
                                        </li>
                                        <li>
-                                          <a href="web">App Development</a>
-                                       </li>
+                                          <a href="apps">App Development</a>
+                                       </li>                                      
                                        <li>
-                                          <a href="web">SEO Services</a>
-                                       </li>
-                                       <li>
-                                          <a href="web">Designing Services</a>
-                                       </li>
-                                       <li>
-                                          <a href="web">Digital Marketing</a>
+                                          <a href="seo">Digital Marketing</a>
                                        </li>
                                        
                                        
