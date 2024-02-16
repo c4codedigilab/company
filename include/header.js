@@ -66,39 +66,39 @@ document.write(`
                <div class="navbar__menu">
                   <ul class="navbar__list">
                      <li class="navbar__item nav-fade">
-                        <a href="index">Home</a>
+                        <a href="index.html">Home</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="about-us">About Us</a>
+                        <a href="about-us.html">About Us</a>
                      </li>
                      
                      <li class="navbar__item navbar__item--has-children nav-fade">
                                     <button aria-label="dropdown menu" class="navbar__dropdown-label">Services</button>
                                     <ul class="navbar__sub-menu">
                                        <li>
-                                          <a href="web">Web Development</a>
+                                          <a href="web.html">Web Development</a>
                                        </li>
                                        <li>
-                                          <a href="apps">App Development</a>
+                                          <a href="apps.html">App Development</a>
                                        </li>                                      
                                        <li>
-                                          <a href="seo">Digital Marketing</a>
+                                          <a href="seo.html">Digital Marketing</a>
                                        </li>
                                        
                                        
                                     </ul>
                                  </li>
                      <li class="navbar__item nav-fade">
-                        <a href="projects">Projects</a>
+                        <a href="projects.html">Projects</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="technology">Technology Expertise</a>
+                        <a href="technology.html">Technology Expertise</a>
                      </li>
 
 
 
                      <li class="navbar__item nav-fade">
-                        <a href="contact-us">Contact Us</a>
+                        <a href="contact-us.html">Contact Us</a>
                      </li>
                   </ul>
                </div>
