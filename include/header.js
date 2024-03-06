@@ -91,9 +91,7 @@ document.write(`
                      <li class="navbar__item nav-fade">
                         <a href="projects.html">Projects</a>
                      </li>
-                     // <li class="navbar__item nav-fade">
-                     //    <a href="technology.html">Tech Expertise</a>
-                     // </li>
+                     
 
 
 
