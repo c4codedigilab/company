@@ -92,7 +92,7 @@ document.write(`
                         <a href="projects.html">Projects</a>
                      </li>
                      <li class="navbar__item nav-fade">
-                        <a href="technology.html">Technology Expertise</a>
+                        <a href="technology.html">Tech Expertise</a>
                      </li>
 
 
